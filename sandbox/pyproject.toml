@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sandbox"
+version = "0.1.0"
+description = "A place to experiment and learn"
+authors = ["frickp <peter.l.frick@gmail.com>"]
+license = "\"MIT\""
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.22.2"
+ipython = "^8.5.0"
+torch = "^1.12.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
